@@ -21,7 +21,7 @@ class OutputFormatting {
         sale = value + (value*profit); // 7,50 + (7,50 * 0,75) -> 8,25
 
         // {0,15} -> space
-        Console.WriteLine("Product:{0,15}", product); // {0,15:c} -> $
+        Console.WriteLine("Product:{0,15}", product);
         Console.WriteLine("Value:{0,15:c}", value);  // {0,15:c} -> $
         Console.WriteLine("Profit:{0,15:p}", profit); // {0,15:p} -> %
         Console.WriteLine("Sale:{0,15:c}", sale);
